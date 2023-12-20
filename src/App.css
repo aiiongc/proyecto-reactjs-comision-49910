@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .9375rem;
+  font-weight: lighter;
+}
 
 header{
   display: flex;
@@ -74,4 +84,32 @@ h1{
   position:fixed;
   margin-left: 53%;
   margin-top: -0.625rem;
+}
+
+.productImg{
+  width: 18.75rem;
+}
+
+.price{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.875rem;
+  font-weight: lighter;
+  letter-spacing: .1875rem;
+  color: #FF00D6;
+}
+
+.productCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .625rem;
+  margin-top: 3.125rem;
+}
+
+.productContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+
 }
